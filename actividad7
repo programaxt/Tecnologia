@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleton - Venta de Galletas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFFFFF;
+            color: #000000;
+        }
+        header, footer {
+            background-color: #F5BF6C;
+            padding: 20px;
+            text-align: center;
+        }
+        .bienvenida, .productos, .contacto {
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .bienvenida {
+            background-color: #F5868D;
+            color: white;
+        }
+        .productos {
+            background-color: #FFF3E0;
+        }
+        .contacto {
+            background-color: #FDEBD0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galleton</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F5868D;">
+        <div class="container">
+            <a class="navbar-brand" href="#">Galleton</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#bienvenida">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container mt-4">
+        <section id="bienvenida" class="bienvenida text-center">
+            <h1>Bienvenidos a Galleton</h1>
+            <p>Ofrecemos galletas deliciosas, de alta calidad y creatividad, ideales para compartir en familia, celebraciones de cumpleaños y reuniones de negocios.</p>
+            <img src="https://drive.google.com/uc?export=view&id=1u207lTQ7YMXhYcG2R8_GzD-7556WUQ7_" class="img-fluid rounded mt-3" alt="Galletas deliciosas">
+        </section>
+        <section id="productos" class="productos text-center mt-4">
+            <h2>Nuestros Productos</h2>
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center bg-warning fw-bold">Galletas de chocolate</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center bg-warning fw-bold">Galletas de avena</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body text-center bg-warning fw-bold">Galletas rellenas</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contacto text-center mt-4">
+            <h2>Contáctenos</h2>
+            <p>Email: <a href="mailto:galletascrispi@gmail.com" class="text-dark">galletascrispi@gmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>Autor de la página web: Sergio Andrés</p>
+        <a href="https://www.beiked.co/" class="btn btn-dark">Beiked</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
